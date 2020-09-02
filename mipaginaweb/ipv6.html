@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Protocolo IPv6</title>
+        <style>h2{color: blue;text-align: center;}</style>
+        <link rel="stylesheet" href="estilos.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Juan Ignacio Navarro">
+        <meta name="description" content="Información sobre los protocolos de capa 3 del modelo OSI de Internet, IPv4 e IPv6.">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </head>   
+<body>
+    <nav class="navbar navbar-expand-sm bg-light">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Introducción</a></li>
+        <li class="nav-item"><a class="nav-link" href="ipv4.html">IPv4</a></li>
+        <li class="nav-item"><a class="nav-link" href="ipv6.html">IPv6</a></li>
+        <li class="nav-item"><a class="nav-link" href="diferencias.html">Diferencias entre IPv4 y IPv6</a></li>
+        <li class="nav-item"><a class="nav-link" href="formulario.html">Formulario personal</a></li>
+      </ul>
+    </nav>
+    <br>
+
+  <h2 id="ipv6">Protocolo IPv6</h2>
+
+  <p>El IPv6 es una actualización al protocolo <a href="ipv4.html">IPv4</a>, diseñado para resolver el problema de agotamiento de direcciones.</p>
+
+
+  <h4>Direccionamiento</h4>
+  <p> IPv6 admite 2<sup>128</sup> o 340 sextillones de direcciones, cerca de 6,7 × 10<sup>17</sup> (670 mil billones) 
+    de direcciones por cada milímetro cuadrado de la superficie de la Tierra.Las direcciones IPv6,son de 128 bits; esto corresponde a 
+    32 dígitos hexadecimales.</p>
+    <img src=imagenes/direccionamientoipv6.png alt="Direccionamiento ipv6" style="width:400;height:280px">
+  <p>El interés de los diseñadores era que direcciones más largas permitiesen una mejor entrega jerárquica, sistemática 
+      y definitiva de las direcciones, y una eficiente agregación de rutas. Con <a href="ipv4.html">IPv4</a>, 
+      se desplegaron complejas técnicas de Classless Interdomain Routing (CIDR) para utilizar de mejor manera el pequeño 
+      espacio de direcciones.Sin embargo, con IPv6, cambiando el prefijo anunciado por unos pocos routers es posible en 
+      principio reasignar la numeración de toda la red, ya que los identificadores de nodos 
+      (los 64 bits menos significativos de la dirección) pueden ser auto-configurados independientemente por un nodo.</p>  
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+   
+   <p>El tamaño de una subred en IPv6 es de 2<sup>64</sup> (máscara de subred de 64-bit), el cuadrado del tamaño de la Internet IPv4 
+       entera. Así, las tasas de utilización del espacio de direcciones será probablemente menor en IPv6, pero la administración 
+       de las redes y el ruteo serían más eficientes debido a las decisiones de diseño inherentes al mayor tamaño de las subredes 
+       y la agregación jerárquica de rutas.</p>   
+
+
+       <p>Cabe destacar respecto a IPv6 que, LACNIC, la organización cuya función es asignar y administrar los recursos 
+           de numeración de Internet(IPv4, IPv6) anunció el agotamiento de las direcciones IPv4 y promueve la utilización de IPv6.</p>
+        <a href="https://www.lacnic.net/4847/1/lacnic/agotamiento-de-ipv4:-lacnic-asigno-el-ultimo-bloque" target="_blank">Click aquí para ver la publicación de LACNIC</a>
+
+        <hr>
+
+
+
+<a href="#ipv6">Volver al principio de IPv6</a>
+<hr>
+<a href="diferencias.html">Ir a Diferencias entre IPv4 y IPv6</a>
+</body>
+
+
+
+
+
+
+
+</html>
