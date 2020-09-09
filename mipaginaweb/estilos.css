@@ -1,12 +1,35 @@
 #bo {
-    background-color: floralwhite;
+    background-color: cornsilk;
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  h1{text-align: center;color: blue;}
+  h1{text-align: center;color: darkslateblue;}
 
 
   h2{color: black;text-align: center;}
   
-
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:papayawhip;
+  }
  
+  header {
+    background-color: antiquewhite ;
+    text-align: center;
+    padding: 5px;
+  }
+  .button1
+        {
+          background-color: blueviolet;
+          font-size: 12px;
+          border-radius: 20px;
+          font-size: 20px;
+        }
+
+        img{
+          display:block;
+          margin:auto;
+          }
